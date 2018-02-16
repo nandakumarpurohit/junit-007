@@ -17,18 +17,14 @@ public class CaseConverterTest {
 	
 	@Test
 	public void testConvertCase2() {
-		assertEquals(c1.convertCase("heLlo"), "HELLO");
+		assertEquals(c1.convertCase("hello"), "HELLO");
 	}
 	
 	@Test
 	public void testConvertCase3() {
-		assertEquals(c1.convertCase(""), "HELLO");
+		assertEquals(c1.convertCase(""), "");
 	}
-	
-	@Test
-	public void testConvertCase4() {
-		assertEquals(c1.convertCase(null), null);
-	}
+
 	
 	@Test
 	public void testConvertCase5() {
