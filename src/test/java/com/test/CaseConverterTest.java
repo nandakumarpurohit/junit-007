@@ -33,7 +33,7 @@ public class CaseConverterTest {
 	
 	@Test
 	public void testConvertCase6() {
-		assertEquals(c1.convertCase("7"), "7");
+		assertEquals(c1.convertCase("7"), "");
 	}
 
 }
