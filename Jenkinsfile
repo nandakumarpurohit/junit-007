@@ -7,17 +7,20 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'mvn clean package' 
+                sh 'mvn clean package'
+                echo 'Build is DONE!' 
             }
         }
         stage('Test') { 
             steps {
-                sh 'mvn test' 
+                sh 'mvn test'
+                echo 'Test OK!' 
             }
         }
         stage('Deploy') { 
             steps {
                 sh 'mvn install' 
+                echo 'Installed! :)'
             }
         }
     }
