@@ -16,7 +16,7 @@ public class CaseConverter {
 			for(int i=0;i<data.length();i++) {
 				int x = data.charAt(i);
 				x -= 32;
-				temp = temp + (char) x;
+				temp = temp + (char) x
 			}
 			return temp;
 		}
