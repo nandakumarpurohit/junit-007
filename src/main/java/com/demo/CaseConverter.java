@@ -31,7 +31,7 @@ public class CaseConverter {
 	}
 	
 	public static void main(String a[]) {
-		System.out.prnln("Hello! " + new Date());
+		System.out.println("Hello! " + new Date());
 	}
 
 }
