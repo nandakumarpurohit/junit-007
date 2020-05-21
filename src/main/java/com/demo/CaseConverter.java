@@ -1,5 +1,7 @@
 package com.demo;
 
+import java.util.Date;
+
 public class CaseConverter {
 	
 	public String convertCase(String data) {
@@ -26,6 +28,10 @@ public class CaseConverter {
 			return true;
 		
 		return false;
+	}
+	
+	public static void main(String a[]) {
+		System.out.println("Hello! " + new Date());
 	}
 
 }
