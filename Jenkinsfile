@@ -5,10 +5,16 @@ pipeline {
     }
     agent any 
     stages {
-        stage('Build') { 
+        stage('Clean') { 
             steps {
-                sh 'mvn clean package'
-                echo 'Build is DONE!' 
+                sh 'mvn clean'
+                echo 'CLEAN is DONE!' 
+            }
+        }
+        stage('Package') { 
+            steps {
+                sh 'mvn package'
+                echo 'PACKAGING is DONE!' 
             }
         }
         stage('Test') { 
