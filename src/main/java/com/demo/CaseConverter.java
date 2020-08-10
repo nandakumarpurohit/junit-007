@@ -6,6 +6,7 @@ public class CaseConverter {
 	
 	public String convertCase(String data) {
 		String temp = "";
+		System.out.println("Inside convertCase()...!");
 		if(data == null)
 			return "";
 		else if(data.length() == 0)
@@ -20,7 +21,6 @@ public class CaseConverter {
 			}
 			return temp;
 		}
-		System.out.println("CHANGED!");
 	}
 	
 	private boolean isNumber(String str) {
