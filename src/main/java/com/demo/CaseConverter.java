@@ -22,7 +22,7 @@ public class CaseConverter {
 		}
 	}
 	
-	private booean isNumber(String str) {
+	private boolean isNumber(String str) {
 		int x = str.charAt(0);
 		if(x > 47 && x < 58)
 			return true;
