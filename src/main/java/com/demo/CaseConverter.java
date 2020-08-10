@@ -20,6 +20,7 @@ public class CaseConverter {
 			}
 			return temp;
 		}
+		System.out.println("CHANGED!");
 	}
 	
 	private boolean isNumber(String str) {
