@@ -12,12 +12,12 @@ public class CaseConverterTest {
 
 	@Test
 	public void testConvertCase() {
-		assertEquals(c1.converCase("hello"), "HELLO");
+		assertEquals(c1.convertCase("hello"), "HELLO");
 	}
 	
 	@Test
 	public void testConvertCase7() {
-		assertEquals(c1.convertCase("ok"), "OK");
+		assertEquals(c1.convertCase("ok"), "");
 	}
 	
 	@Test
