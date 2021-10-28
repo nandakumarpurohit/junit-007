@@ -11,8 +11,8 @@ public class CaseConverterTest {
 	CaseConverter c1 = new CaseConverter();
 
 	@Test
-	public void testConverCase() {
-		assertEquals(c1.convertCase("hello"), "HELLO");
+	public void testConvertCase() {
+		assertEquals(c1.converCase("hello"), "HELLO");
 	}
 	
 	@Test
