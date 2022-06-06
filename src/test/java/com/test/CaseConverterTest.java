@@ -22,7 +22,7 @@ public class CaseConverterTest {
 	
 	@Test
 	public void testConvertCase3() {
-		assertEquals(c1.converCase(""), "");
+		assertEquals(c1.convertCase(""), "");
 	}
 
 	
