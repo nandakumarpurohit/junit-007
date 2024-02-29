@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class CaseConverter {
 	
-	public String convetCase(String data) {
+	public String convertCase(String data) {
 		String temp = "";
 		System.out.println("Inside convertCase()...!");
 		if(data == null)
